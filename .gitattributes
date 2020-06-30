@@ -1,0 +1,37 @@
+# From https://github.com/alexkaratarakis/gitattributes/blob/master/Web.gitattributes
+
+## GITATTRIBUTES FOR WEB PROJECTS
+#
+# These settings are for any web project.
+#
+# Details per file setting:
+#   text    These files should be normalized (i.e. convert CRLF to LF).
+#   binary  These files are binary and should be left untouched.
+#
+# Note that binary is a macro for -text -diff.
+######################################################################
+
+# Auto detect
+##   Handle line endings automatically for files detected as
+##   text and leave all files detected as binary untouched.
+##   This will handle all files NOT defined below.
+*                 text=auto
+
+# Source code
+*.js              text
+*.json            text
+
+# Documentation
+*.md              text
+
+# Configs
+.editorconfig     text
+.gitattributes    text
+package-lock.json text -diff
+
+# RC files (like .babelrc or .eslintrc)
+*.*rc             text
+
+# Ignore files (like .npmignore or .gitignore)
+prettierignore    text
+*.*ignore         text
