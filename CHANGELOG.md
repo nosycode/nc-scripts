@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.1 (2020-07-01)
+
+
+### Bug Fixes
+
+* rename wms to nc ([f6c15fd](https://github.com/nosycode/nc-scripts/commit/f6c15fd238ae5d01ecc0651c44bb8e8cc0f361b2))
+
 ## [1.1.0](https://github.com/nosycode/nc-scripts/compare/v1.0.0...v1.1.0) (2020-07-01)
 
 
