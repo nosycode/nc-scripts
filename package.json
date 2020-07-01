@@ -1,6 +1,6 @@
 {
   "name": "nc-scripts",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "CLI for common scripts for my projects",
   "engines": {
     "node": ">=10.18",

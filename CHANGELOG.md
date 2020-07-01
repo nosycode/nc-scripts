@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/nosycode/nc-scripts/compare/v0.1.7...v0.1.8) (2020-07-01)
+
+
+### Features
+
+* remove test feature ([b58b6c2](https://github.com/nosycode/nc-scripts/commit/b58b6c23ac217a67b71a0d0504b778d539b04841))
+
 ### [0.1.7](https://github.com/nosycode/nc-scripts/compare/v0.1.6...v0.1.7) (2020-07-01)
 
 
