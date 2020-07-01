@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.2.0-develop.0 (2020-07-01)
+
+
+### Features
+
+* add workflows for develop and release/* branches ([6579ffd](https://github.com/nosycode/nc-scripts/commit/6579ffd075d46dfc11d418895605ea8c4234124f))
+
 ### 1.1.1 (2020-07-01)
 
 
