@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/nosycode/nc-scripts/compare/v1.0.0...v1.1.0) (2020-07-01)
+
+
+### Features
+
+* add force flag to release script ([64859eb](https://github.com/nosycode/nc-scripts/commit/64859eb3d78fd8d54aeacf53ce4c051672bb6b91))
+
 ## [1.0.0](https://github.com/nosycode/nc-scripts/compare/v0.1.11...v1.0.0) (2020-07-01)
 
 ### [0.1.11](https://github.com/nosycode/nc-scripts/compare/v0.1.10...v0.1.11) (2020-07-01)
