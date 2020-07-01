@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.2.0-develop.1 (2020-07-01)
+
+
+### Bug Fixes
+
+* remove unnesesary file ([4815a76](https://github.com/nosycode/nc-scripts/commit/4815a767b67bbefa2b2dd44fec09cba3648f831d))
+
 ## 1.2.0-develop.0 (2020-07-01)
 
 ## 1.2.0-release.0 (2020-07-01)
