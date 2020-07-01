@@ -13,6 +13,9 @@
     "commit": "git-cz",
     "format": "node lib format",
     "release": "node lib release",
+    "release:hotfix": "node lib release --skip.changelog --prerelease hotfix",
+    "release:release": "node lib release --skip.changelog --prerelease release",
+    "release:develop": "node lib release --skip.changelog --prerelease develop",
     "validate": "node lib validate"
   },
   "files": [

@@ -1,8 +1,8 @@
-name: Release
+name: Prerelease release
 
 on:
   push:
-    branches: [develop]
+    branches: [release/*]
 
 jobs:
   build:
@@ -16,5 +16,5 @@ jobs:
       - run: npm ci
       - run: git config --local user.name "nosycode"
       - run: git config --local user.email "nosycode@gmail.com"
-      - run: npm run release -- --prerelease develop
+      - run: npm run release:release
       - run: git push --follow-tags origin HEAD

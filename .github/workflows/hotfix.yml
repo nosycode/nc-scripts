@@ -1,8 +1,8 @@
-name: Release
+name: Prerelease hotfix
 
 on:
   push:
-    branches: [release/*]
+    branches: [hotfix/*]
 
 jobs:
   build:
@@ -16,5 +16,5 @@ jobs:
       - run: npm ci
       - run: git config --local user.name "nosycode"
       - run: git config --local user.email "nosycode@gmail.com"
-      - run: npm run release -- --prerelease release
+      - run: npm run release:hotfix
       - run: git push --follow-tags origin HEAD
