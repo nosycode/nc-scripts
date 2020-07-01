@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0-release.0](https://github.com/nosycode/nc-scripts/compare/v1.2.0-develop.1...v1.2.0-release.0) (2020-07-01)
+
 ## 1.2.0-develop.1 (2020-07-01)
 
 
