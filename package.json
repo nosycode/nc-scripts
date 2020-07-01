@@ -1,6 +1,6 @@
 {
   "name": "nc-scripts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "CLI for common scripts for my projects",
   "engines": {
     "node": ">=10.18",
@@ -30,6 +30,7 @@
     "@commitlint/config-conventional": "9.0.1",
     "arrify": "^2.0.1",
     "concurrently": "^5.2.0",
+    "conventional-changelog-angular": "5.0.10",
     "conventional-recommended-bump": "6.0.9",
     "cosmiconfig": "^6.0.0",
     "cross-spawn": "^7.0.3",
