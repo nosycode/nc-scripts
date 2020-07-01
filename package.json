@@ -12,7 +12,7 @@
   "scripts": {
     "commit": "git-cz",
     "format": "node lib format",
-    "release": "standard-version",
+    "release": "node lib release",
     "validate": "node lib validate"
   },
   "files": [
@@ -30,6 +30,7 @@
     "@commitlint/config-conventional": "9.0.1",
     "arrify": "^2.0.1",
     "concurrently": "^5.2.0",
+    "conventional-recommended-bump": "6.0.9",
     "cosmiconfig": "^6.0.0",
     "cross-spawn": "^7.0.3",
     "doctoc": "^1.4.0",
@@ -40,6 +41,7 @@
     "prettier": "2.0.5",
     "read-pkg-up": "^7.0.1",
     "resolve": "^1.17.0",
+    "standard-version": "8.0.0",
     "which": "^2.0.2",
     "yargs-parser": "^18.1.3"
   },
@@ -48,15 +50,7 @@
     "url": "https://github.com/nosycode/nc-scripts.git"
   },
   "devDependencies": {
-    "conventional-changelog-angular": "5.0.10",
-    "conventional-recommended-bump": "6.0.9",
-    "cz-conventional-changelog": "3.2.0",
-    "standard-version": "8.0.0"
-  },
-  "standard-version": {
-    "scripts": {
-      "prerelease": "exit 0"
-    }
+    "cz-conventional-changelog": "3.2.0"
   },
   "config": {
     "commitizen": {
